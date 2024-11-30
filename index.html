@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Harsh Kumar | Portfolio</title>
+  <style>
+    /* General Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Arial', sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background: #f3f4f6;
+      scroll-behavior: smooth;
+    }
+
+    header {
+      background: linear-gradient(90deg, #6a11cb, #2575fc);
+      color: #fff;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+
+    header img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 5px solid #fff;
+      margin-bottom: 1rem;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      font-weight: bold;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+    }
+
+    nav {
+      background: #333;
+      display: flex;
+      justify-content: center;
+      padding: 1rem;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-size: 1rem;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #6a11cb;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    section {
+      margin-bottom: 3rem;
+    }
+
+    section h2 {
+      font-size: 2rem;
+      color: #6a11cb;
+      margin-bottom: 1rem;
+      border-bottom: 2px solid #6a11cb;
+      display: inline-block;
+      padding-bottom: 0.5rem;
+    }
+
+    .skills, .projects {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    .skills div, .projects div {
+      flex: 1 1 calc(50% - 1rem);
+      padding: 1rem;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .skills div h3, .projects div h3 {
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+      color: #333;
+    }
+
+    .contact-info p, .achievements ul {
+      margin-bottom: 0.8rem;
+    }
+
+    footer {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      padding: 1rem 0;
+      margin-top: 3rem;
+    }
+
+    footer a {
+      color: #6a11cb;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="your-photo.jpg" alt="Harsh Kumar">
+    <h1>Harsh Kumar</h1>
+    <p>Aspiring Developer | Tech Enthusiast</p>
+  </header>
+
+  <nav>
+    <a href="#about">About Me</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="container">
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        Hello! I am Harsh Kumar, a beginner in the tech world with a strong passion for learning and implementing innovative ideas. Currently, I am exploring various technologies and working on personal projects to grow as a developer.
+      </p>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="skills">
+        <div>
+          <h3>Technical Skills</h3>
+          <ul>
+            <li>Java</li>
+            <li>HTML, CSS, JavaScript</li>
+            <li>Basics of Python</li>
+            <li>Data Structures & Algorithms (in Java)</li>
+            <li>Algorithm Design</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Non-Technical Skills</h3>
+          <ul>
+            <li>Event Management</li>
+            <li>Leadership & Teamwork</li>
+            <li>Content Creation (Vlog & Film Making)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="projects">
+        <div>
+          <h3>RideShare</h3>
+          <p>A carpooling platform to connect riders and drivers for shared commutes.</p>
+        </div>
+        <div>
+          <h3>Apna School</h3>
+          <p>A virtual platform for underprivileged children to access free education resources.</p>
+        </div>
+        <div>
+          <h3>Security Stick</h3>
+          <p>A multi-functional stick equipped with security features for personal safety.</p>
+        </div>
+        <div>
+          <h3>Protected House</h3>
+          <p>An IoT-based smart home security system to enhance safety and convenience.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <div class="contact-info">
+        <p>Email: <a href="mailto:harshkumar1212hks@gmail.com">harshkumar1212hks@gmail.com</a></p>
+        <p>GitHub: <a href="https://github.com/HarshSinghhh0000" target="_blank">github.com/HarshSinghhh0000</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/harsh-kumar-173410306/" target="_blank">linkedin.com/in/harsh-kumar</a></p>
+      </div>
+    </section>
+
+    <section id="achievements">
+      <h2>Achievements</h2>
+      <ul>
+        <li>Cabinet Member in School</li>
+        <li>Won inter-school competitions (Vlog & Film Making)</li>
+        <li>Participated in science exhibitions</li>
+        <li>Led the NCC organization and earned the NCC A Certificate</li>
+        <li>Served as Treasurer of the Interact Club (school-based NGO)</li>
+      </ul>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2024 Harsh Kumar | Connect with me on <a href="https://www.instagram.com/harsh_singhhh_0000" target="_blank">Instagram</a> or <a href="https://www.snapchat.com/add/harshkumar_hks" target="_blank">Snapchat</a>.</p>
+  </footer>
+</body>
+</html>
